@@ -1,0 +1,22 @@
+.user-container {
+  width: 300px;
+  margin: 10px 0px 10px 0px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+.user-container:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  transition: 100ms;
+  outline: 1px solid white;
+}

@@ -1,0 +1,11 @@
+.other-msg-container {
+  align-self: flex-end;
+  width: fit-content;
+  max-width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: red;
+  margin: 10px;
+}

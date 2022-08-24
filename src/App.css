@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+.outer-main-container {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  background-color: black;
+  width: calc(100%-30px);
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-container {
+  background-color: black;
+  height: 7%;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.msg-container {
+  background-color: black;
+  height: 84%;
+  border: 2px solid white;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-container {
+  background-color: black;
+  height: 40px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.input-style {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 0;
+  padding-left: 15px;
+  height: 40px;
+  align-self: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.input-style:focus-visible {
+  outline: black auto 1px;
+}
+
+.inner-main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-text {
+  align-self: center;
+  color: black;
+  margin-top: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.login-input {
+  width: 80%;
+  margin-top: 10px;
+  align-self: center;
+  height: 50px;
+  border-radius: 20px;
+  border-color: black;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+#inputID::placeholder {
+  color: black;
+  opacity: 1;
+  font-weight: 100;
+}
+
+#inputID:focus-visible {
+  outline: black auto 1px;
+}
+
+.login-button {
+  width: 150px;
+  background-color: black;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0;
+  align-self: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.logout-button {
+  width: 100px;
+  background-color: white;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0;
+  align-self: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.users-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.users-main-heading {
+  color: white;
+  align-self: center;
+}
+
+.users-inner-container {
+  margin: 20px 50px 20px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

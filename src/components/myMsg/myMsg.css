@@ -1,0 +1,10 @@
+.my-msg-container {
+  width: fit-content;
+  max-width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: greenyellow;
+  margin: 10px;
+}
